@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="2b5c43e2432e46e3a3dec904b06ecf66" Name="Diagram1">
+        <EntityTypeShape EntityType="GroceryDBModel.Cart" Width="1.5" PointX="5.25" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="GroceryDBModel.Category" Width="1.5" PointX="0.75" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="GroceryDBModel.OrderDetail" Width="1.5" PointX="8.25" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="GroceryDBModel.Order" Width="1.5" PointX="6" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GroceryDBModel.Product" Width="1.5" PointX="3" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="GroceryDBModel.User" Width="1.5" PointX="3" PointY="7.5" IsExpanded="true" />
+        <AssociationConnector Association="GroceryDBModel.FK__Cart__ProductId__4AB81AF0" ManuallyRouted="false" />
+        <AssociationConnector Association="GroceryDBModel.FK__Cart__UserId__49C3F6B7" ManuallyRouted="false" />
+        <AssociationConnector Association="GroceryDBModel.FK__Products__Catego__3B75D760" ManuallyRouted="false" />
+        <AssociationConnector Association="GroceryDBModel.FK__OrderDeta__Order__4222D4EF" ManuallyRouted="false" />
+        <AssociationConnector Association="GroceryDBModel.FK__OrderDeta__Produ__4316F928" ManuallyRouted="false" />
+        <AssociationConnector Association="GroceryDBModel.FK__Orders__UserId__3F466844" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
